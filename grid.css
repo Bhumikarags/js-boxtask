@@ -1,0 +1,16 @@
+/* styles.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Three columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    align-content: center; /* Center the grid vertically */
+    height: 100vh; /* Make the grid container take up the full viewport height */
+}
+
+.grid-item {
+    background-color: #3498db; /* Background color for grid items */
+    color: white; /* Text color for grid items */
+    padding: 20px;
+    text-align: center;
+}
